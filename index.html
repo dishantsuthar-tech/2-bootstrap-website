@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap-Project2</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google-Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom-CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Custom-Media Link -->
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+
+     <!-- Top Header Start -->
+     <section class="container-fluid" id="topbar">
+        <div class="container pt-2">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>contact@example.com</span>
+                <i class="fa-solid fa-mobile ps-3"></i>
+                <span class="ps-2 number">+91 6355508439</span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 text-end col-4">
+              <div style="font-size: 15px">
+                <i class="fa-brands fa-twitter hicon" style="margin-right: 10px"></i>
+                <i class="fa-brands fa-facebook hicon" style="margin-right: 10px"></i>
+                <i
+                  class="fa-brands fa-instagram hicon"
+                  style="margin-right: 10px"
+                ></i>
+                <i class="fa-brands fa-linkedin hicon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Header End -->
+      <!-- Main Header Start -->
+    <header class="sticky-top" style="background-color: white;">
+      <section class="container-fluid">
+        <div class="container py-3 px-0">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><h1 class="brandname">
+                  BizLand<span style="color: #106eea">.</span>
+                </h1></a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto gap-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Drop Down ↓
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+     <!-- Main Header End -->
+    <main>
+      <!-- Hero-Section Start -->
+      <section class="container-fluid" id="hero-section">
+        <div class="container hero-container" style="padding-top: 140px">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="hero-title">
+                Welcome to<span style="color: #106eea"> BizLand</span>
+              </h1>
+              <h2 class="hero-desc">
+                We are team of talented designers making websites with Bootstrap
+              </h2>
+              <div class="d-flex">
+                <button class="hero-btn">GET STARTED</button>
+                <i class="fa-solid fa-circle-play hero-icon"></i
+                ><span class="hero-span"> <a href="#">Watch Video</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2 start -->
+      <section class="container-fluid py-5">
+        <div class="container" style="padding-top: 50px;">
+             <div class="row">
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-card p-4">
+            <i class="fa-brands fa-xbox fa-2x mb-3" style="color: #106eea;"></i>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi,et quas molestias excepturi</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-card p-4">
+            <i class="fa-solid fa-file fa-2x mb-3" style="color: #106eea;"></i>
+            <h4>Sed ut perspiciatis</h4>
+            <p>Sed ut perspiciatis Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-card  p-4">
+            <i class="fa-solid fa-gauge-simple-high fa-2x mb-3" style="color: #106eea;"></i>
+            <h4>Magni Dolores</h4>
+            <p>Magni Dolores Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="service-card p-4">
+            <i class="fa-solid fa-earth-americas fa-2x mb-3" style="color: #106eea;"></i>
+            <h4>Nemo Enim</h4>
+            <p>Nemo Enim At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        </div>
+    </div>
+</div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section Start -->
+       <section class="container-fluid py-5" id="about-section" style="background-color: #f6f9fe;;">
+          <div class="container">
+             <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">ABOUT</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Find Out More<span style="color: #106eea;"> About Us</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+             <div class="row mt-3">
+              <div class="col-lg-6">
+                 <img src="img/about.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 hero-right">
+                <h3 style="    font-weight: 600;
+    font-size: 26px;" class="hero-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <p style="margin-top: 0;
+    margin-bottom: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <ul style="list-style: none;" class="mx-0 px-0 pt-5">
+                  <li style="    display: flex
+;
+    align-items: flex-start;
+    margin-bottom: 25px;">
+                    <i class="fa-solid fa-store about-icon"></i>
+                    <div style="    display: block;
+    unicode-bidi: isolate;">
+                      <h5 style="    font-size: 18px;
+    color: #555555;">Ullamco laboris nisi ut aliquip consequat</h5>
+                       <p style="font-size: 15px;">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                    </div>
+                  </li>
+                  <li style="    display: flex
+;
+    align-items: flex-start;">
+                    <i class="fa-solid fa-image about-icon"></i>
+                    <div style="    display: block;
+    unicode-bidi: isolate;">
+                      <h5 style="    font-size: 18px;
+    color: #555555;">Ullamco laboris nisi ut aliquip consequat</h5>
+                       <p style="font-size: 15px;">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                    </div>
+                  </li>
+                </ul>
+                <p style="font-size: 16px;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+             </div>
+          </div>
+       </section>
+       <!-- Skill Section Start -->
+        <section class="container-fluid py-5">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+               <span style="font-weight: 600; color: #222222;">HTML</span><span style="float: right; font-weight: 600; color: #222222;">100%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 100%; height: 10px; color: #106eea;"></div>
+</div>
+<br>
+<span style="font-weight: 600; color: #222222;">CSS</span><span style="float: right; font-weight: 600; color: #222222;">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 90%; height: 10px; color: #106eea;"></div>
+</div>
+<br>
+<span style="font-weight: 600; color: #222222;">JAVASCRIPT</span><span style="float: right; font-weight: 600; color: #222222;">75%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 75%; height: 10px; color: #106eea;"></div>
+</div>
+              </div>
+              <div class="col-lg-6">
+                <span style="font-weight: 600; color: #222222;">PHPL</span><span style="float: right; font-weight: 600; color: #222222;">80%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 80%; height: 10px; color: #106eea;"></div>
+</div>
+<br>
+<span style="font-weight: 600; color: #222222;">WORDPRESS/CMS</span><span style="float: right; font-weight: 600; color: #222222;">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 90%; height: 10px; color: #106eea;"></div>
+</div>
+<br>
+<span style="font-weight: 600; color: #222222;">PHOTOSHOP</span><span style="float: right; font-weight: 600; color: #222222;">55%</span>
+                <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px; border-radius: 0;">
+  <div class="progress-bar" style="width: 55%; height: 10px; color: #106eea;"></div>
+</div>
+              </div>
+            </div>
+          </div>
+        </section>
+         <section class="container-fluid py-5 mt-5">
+            <div class="container">
+              <div class="row text-center gy-4">
+                  <div class="col-lg-3 col-md-6" >
+                        <div style="background-color: #f1f6fe;">
+                           <i class="fa-solid fa-face-smile sup" style="position: relative;font-size: 40px; color: white; top: -25px;"></i>
+                    <span style="font-size: 36px;display: block;font-weight: 600;color: #062b5b;">232</span>
+                    <p style="font-size: 14px; padding-bottom: 30px;">Happy Client</p>
+                        </div>
+                  </div>
+                    <div class="col-lg-3 px-3 col-md-6">
+                     <div style="background-color: #f1f6fe;">
+                       <i class="fa-solid fa-book sup " style="position: relative;font-size: 40px; color: white; top: -25px;"></i>
+                    <span style="font-size: 36px;display: block;font-weight: 600;color: #062b5b;">521</span>
+                    <p style="font-size: 14px; padding-bottom: 30px;">Projects</p>
+                     </div>
+                  </div>
+                   <div class="col-lg-3 col-md-6">
+                    <div style="background-color: #f1f6fe;">
+                       <i class="fa-solid fa-music sup " style="position: relative;font-size: 40px; color: white; top: -25px;"></i>
+                    <span style="font-size: 36px;display: block;font-weight: 600;color: #062b5b;">1463</span>
+                    <p style="font-size: 14px; padding-bottom: 30px;">Hours Of Support</p>
+                    </div>
+                  </div>
+                   <div class="col-lg-3 col-md-6">
+                     <div style="background-color: #f1f6fe;">
+                       <i class="fa-solid fa-people-group sup" style="position: relative;font-size: 40px; color: white; top: -25px;"></i>
+                    <span style="font-size: 36px;display: block;font-weight: 600;color: #062b5b;">15</span>
+                    <p style="font-size: 14px; padding-bottom: 30px;">Hard Workers</p>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </section>
+         <section class="container-fluid py-5 mt-4" style="background-color: #f6f9fe;">
+          <div class="container">
+             <div class="row gy-5">
+                <div class="col-lg-2" >
+                  <img src="img/clients/client-1.png" class="img-fluid client-logo" alt="">
+                </div>
+                <div class="col-lg-2">
+                   <img src="img/clients/client-2.png" class="img-fluid client-logo" alt="">
+                </div>
+                <div class="col-lg-2">
+                   <img src="img/clients/client-3.png" class="img-fluid client-logo" alt="">
+                </div>
+                <div class="col-lg-2">
+                   <img src="img/clients/client-4.png" class="img-fluid client-logo" alt="">
+                </div>
+                <div class="col-lg-2">
+                   <img src="img/clients/client-5.png" class="img-fluid client-logo" alt="">
+                </div>
+                <div class="col-lg-2">
+                   <img src="img/clients/client-6.png" class="img-fluid client-logo" alt="">
+                </div>
+             </div>
+          </div>
+         </section>
+         <section class="container-fluid py-5 mt-4" id="services">
+          <div class="container">
+              <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">SERVICES</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Check our<span style="color: #106eea;"> Services</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+            </div>
+            <div class="row ps-5 pe-5 gy-4 mt-2 justify-content-evenly">
+              <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-brands fa-xbox" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Lorem ipsum</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                </div>
+              </div>
+               <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-file" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Sed ut perspiciatis</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+              </div>
+              <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-gauge-simple-high" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Magni Dolores</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                </div>
+              </div>
+              <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-earth-americas" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Nemo Enim</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                </div>
+              </div>
+              <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-desktop" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Dele cardo</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                </div>
+              </div>
+              <div class="col-lg-4 animation">
+                <div class="icon-box">
+                  <div class="icon"><i class="fa-solid fa-torii-gate" style="color: #106eea; font-size: 30px;"></i></div>
+                  <h4 style="    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;"><a href="#" style="color: #222222; text-decoration: none;">Divera don</a></h4>
+                 <p style="    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+         <section class="container-fluid" id="test">
+            <div class="container text-center" style="padding-top: 100px;">
+                <div class="img">
+                   <img src="img/testimonials/testimonials-1.jpg" class="img-fluid" alt="" style="width: 100px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto; position: relative;">
+                   <h3 style="font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff; position: relative;">Matt Brandon</h3>
+                   <h4 style="font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff; position: relative;">Freelancer</h4>
+                   <p style="font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee; position: relative; padding-top: 20px;" class="test-p"><i class="fa-solid fa-quote-left" style="font-size: 20px;"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies<br>eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <i class="fa-solid fa-quote-right" style="font-size: 20px;"></i></p>
+                </div>
+            </div>
+         </section>
+         <section class="container-fluid py-5" id="portfolio">
+          <div class="container">
+            <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">PORTFOLIO</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Check our<span style="color: #106eea;"> Protfolio</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+                 <a href="#" style="text-decoration: none; font-weight: 600;">ALL</a>
+                 <a href="#" style="text-decoration: none; padding-left: 20px; color: black; font-weight: 600;" class="q1">APP</a>
+                 <a href="#" style="text-decoration: none; padding-left: 20px;color: black; font-weight: 600;" class="q1">CARD</a>
+                 <a href="#" style="text-decoration: none; padding-left: 20px; color: black; font-weight: 600;" class="q1">WEB</a>
+               </div>
+              
+             </div>
+             <div class="row mt-4 gy-4">
+               <div class="col-lg-4">
+                  <img src="img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                  
+               </div>
+                <div class="col-lg-4">
+                  <img src="img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                  
+                </div>
+                 <div class="col-lg-4">
+                  <img src="img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                  <br>
+                  <br>
+                  <img src="img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                 </div>
+             </div>
+          </div>
+         </section>
+         <section class="container-fluid py-5 mt-4" style="background-color: #f6f9fe;" id="team">
+          <div class="container">
+            <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">TEAM</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Our Hardworking<span style="color: #106eea;"> Team</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+             <div class="row pt-4">
+                <div class="col-lg-3" style="border-radius: 10px; ">
+               <div style="    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);">
+                <img src="img/team/team-1.jpg" class="img-fluid c-img" alt="" style="  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;">
+                 <div style="padding: 25px 15px;;">
+                    <h4 style="    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222222;">Walter White</h4>
+               <span style="    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;">Chief Executive Officer</span>
+                 </div>
+                 </div>
+              </div>
+               <div class="col-lg-3" style="border-radius: 10px; ">
+               <div style="    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);">
+                <img src="img/team/team-2.jpg" class="img-fluid c-img" alt="" style="  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;">
+                 <div style="padding: 25px 15px;;">
+                    <h4 style="    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222222;">Sarah Jhonson</h4>
+               <span style="    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;">Product Manager</span>
+                 </div>
+                 </div>
+              </div>
+               <div class="col-lg-3" style="border-radius: 10px; ">
+               <div style="    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);">
+                <img src="img/team/team-3.jpg" class="img-fluid c-img" alt="" style="  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;">
+                 <div style="padding: 25px 15px;;">
+                    <h4 style="    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222222;">William Anderson</h4>
+               <span style="    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;">CTO</span>
+                 </div>
+                 </div>
+              </div>
+               <div class="col-lg-3" style="border-radius: 10px; ">
+               <div style="    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);">
+                <img src="img/team/team-4.jpg" class="img-fluid c-img" alt="" style="  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;">
+                 <div style="padding: 25px 15px;;">
+                    <h4 style="    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222222;">Amanda Jepson</h4>
+               <span style="    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;">Accountant</span>
+                 </div>
+                 </div>
+              </div>
+             </div>
+          </div>
+         </section>
+         <section class="container-fluid py-5">
+          <div class="container p-3">
+             <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">PRICING</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Check our<span style="color: #106eea;"> Pricing</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+             <div class="row pt-3 gy-5">
+               <div class="col-lg-3">
+                <div class="box">
+                  <h3 style="    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;">Free</h3>
+       <h4 style="    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;"><sup style="font-size: 20px;
+    top: -15px;
+    left: -3px;">$</sup>0<span style="    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;"> / month</span></h4>
+         <ul style="    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;">
+          <li style="padding-bottom: 16px;">Aida dere</li>
+          <li style="padding-bottom: 16px;">Nec feugiat nisl</li>
+          <li style="padding-bottom: 16px;">Nulla at volutpat dola</li>
+          <li class="na" style="padding-bottom: 16px;">Pharetra massa</li>
+          <li class="na" style="padding-bottom: 16px;">Massa ultricies mi</li>
+         </ul>
+          <div class="custombtn" style="margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;" >
+                    <a href="#" class="btn-buy" style="background: #106eea;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    transition: 0.3s; text-decoration: none;">Buy Now</a>
+          </div>
+                </div>
+               </div>
+               <div class="col-lg-3">
+                <div class="box">
+                  <h3 style="    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #106eea;">Business</h3>
+       <h4 style="    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;"><sup style="font-size: 20px;
+    top: -15px;
+    left: -3px;">$</sup>19<span style="    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;"> / month</span></h4>
+         <ul style="    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;">
+          <li style="padding-bottom: 16px;">Aida dere</li>
+          <li style="padding-bottom: 16px;">Nec feugiat nisl</li>
+          <li style="padding-bottom: 16px;">Nulla at volutpat dola</li>
+          <li class="" style="padding-bottom: 16px;">Pharetra massa</li>
+          <li class="na" style="padding-bottom: 16px;">Massa ultricies mi</li>
+         </ul>
+          <div class="custombtn" style="margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;" >
+                    <a href="#" class="btn-buy" style="background: #106eea;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    transition: 0.3s; text-decoration: none;">Buy Now</a>
+          </div>
+                </div>
+               </div>
+                 <div class="col-lg-3">
+                <div class="box">
+                  <h3 style="    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: #f8f8f8;">Developer</h3>
+       <h4 style="    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;"><sup style="font-size: 20px;
+    top: -15px;
+    left: -3px;">$</sup>29<span style="    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;"> / month</span></h4>
+         <ul style="    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;">
+          <li style="padding-bottom: 16px;">Aida dere</li>
+          <li style="padding-bottom: 16px;">Nec feugiat nisl</li>
+          <li style="padding-bottom: 16px;">Nulla at volutpat dola</li>
+          <li class="" style="padding-bottom: 16px;">Pharetra massa</li>
+          <li class="" style="padding-bottom: 16px;">Massa ultricies mi</li>
+         </ul>
+          <div class="custombtn" style="margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;" >
+                    <a href="#" class="btn-buy" style="background: #106eea;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    transition: 0.3s; text-decoration: none;">Buy Now</a>
+          </div>
+                </div>
+               </div>
+                 <div class="col-lg-3">
+                <div class="box">
+                  <span class="advanced" style="    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #106eea;
+    color:white">Advanced</span>
+                  <h3 style="    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: #f8f8f8;">Ultimate</h3>
+       <h4 style="    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;"><sup style="font-size: 20px;
+    top: -15px;
+    left: -3px;">$</sup>49<span style="    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;"> / month</span></h4>
+         <ul style="    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;">
+          <li style="padding-bottom: 16px;">Aida dere</li>
+          <li style="padding-bottom: 16px;">Nec feugiat nisl</li>
+          <li style="padding-bottom: 16px;">Nulla at volutpat dola</li>
+          <li class="" style="padding-bottom: 16px;">Pharetra massa</li>
+          <li class="na" style="padding-bottom: 16px;">Massa ultricies mi</li>
+         </ul>
+          <div class="custombtn" style="margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;" >
+                    <a href="#" class="btn-buy" style="background: #106eea;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    transition: 0.3s; text-decoration: none;">Buy Now</a>
+          </div>
+                </div>
+               </div>
+             </div>
+          </div>
+         </section>
+         <section class="container-fluid py-5" style="background-color: #f6f9fe;">
+              <div class="container">
+                  <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">F.A.Q</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading">Frequently Asked<span style="color: #106eea;"> Questions</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+              <div class="row">
+                <div class="col-12 ps-5 pt-3 ">
+                  <div class="accordion" id="accordionExample">
+  <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Non consectetur a erat nam at lectus urna duis?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+      </div>
+    </div>
+  </div>
+  <hr>
+    <div class="accordion-item" style="border: none;">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+              </div>
+         </section>
+         <section class="container-fluid py-5" id="contact">
+            <div class="container">
+                <div class="row text-center">
+               <div class="col-12">
+                  <h2 style="font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;">CONTACT</h2>
+                <h3 style="margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;" class="about-heading"><span style="color: #106eea;">Contact Us</span></h3>
+                 <p style="padding-top: 15px;" class="about-desc">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est<br>adipisci expedita at voluptas atque vitae autem.</p>
+               </div>
+             </div>
+             <div class="row">
+                <div class="col-lg-5 text-center mt-4 pt-4 pb-4 "  style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.4)">
+                  <i class="fa-solid fa-location-dot" style="color: #106eea; font-size: 30px;"></i>
+                  <h3 style="font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;">Our Address</h3>
+    <p style="    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="col-lg-3 text-center mt-4 pt-4 pb-4 ms-3"  style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.4)">
+                       <i class="fa-solid fa-envelope" style="color: #106eea; font-size: 30px;"></i>
+                  <h3 style="font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;">Email Us</h3>
+    <p style="    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">contact@example.com</p>
+                  </div>
+                 <div class="col-lg-3 text-center mt-4 pt-4 pb-4 ms-3" style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.4)" >
+                   <i class="fa-solid fa-phone-volume" style="color: #106eea; font-size: 30px;"></i>
+                  <h3 style="font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;">Call Us</h3>
+    <p style="    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;">+1 5589 55488 55</p>
+                 </div>
+             </div>
+              </div>
+         </section>
+         <section class="container-fluid py-5">
+             <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
+                  </div>
+                  <div class="col-lg-6">
+                    <form action="#" method="post" role="form"  style="box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+    padding: 30px;">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <br>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+              </div>
+              <br>
+              <div class="text-center"><button type="submit" style="background: #106eea;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;">Send Message</button></div>
+            </form>
+                  </div>
+                </div>
+             </div>
+         </section>
+         <section class="container-fluid py-5" style="background-color: #f1f6fe;">
+           <div class="container">
+             <div class="row text-center">
+              <div class="col-12">
+                 <h4 style="font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;">Join Our Newsletter</h4>
+    <p style="    margin-top: 0;
+    margin-bottom: 1rem;"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+      <br>
+          <input type="email" style="width: 45%; height: 40px; margin-left: 100PX; border-radius: 3px; border: none;" class="c-input">
+          <button style="font-size: 16px; padding: 8px 25px; background: #106eea; color: #fff; border-radius: 3px;border: none; position: relative; left: -80px;
+" class="c-button">Subscribe</button>                               
+              </div>
+             </div>
+           </div>
+         </section>
+         <section class="container-fluid py-5">
+          <div class="container">
+             <div class="row">
+              <div class="col-lg-3" style="margin-bottom: 30px;">
+                <h3 style="    font-size: 24px;
+    margin: 0 0 15px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;">Bizland<span style="color: #106eea;">.</span></h3>
+    <p style="font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: Roboto, sans-serif;
+    color: #777777;">A108 Adam Street<br>New York, NY 535022<br>United State<br><br><strong>Phone:</strong>+1 5589 55488 55<br><strong>Email:</strong> info@example.com<br></p>
+              </div>
+              <div class="col-lg-3" style="margin-bottom: 30px;">
+                <h4 style="    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;">Useful Links</h4>
+      <ul style="list-style: none;
+    padding: 0;
+    margin: 0;">
+        <li style="padding-top: 0;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">Home</a>
+        </li>
+         <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;About us</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Services</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Terms of Service</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Privacy Policy</a>
+        </li>
+      </ul>
+              </div>
+              <div class="col-lg-3" style="margin-bottom: 30px;">
+                <h4 style="font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;">Our Services</h4>
+                 <ul style="list-style: none;
+    padding: 0;
+    margin: 0;">
+    <li style="padding-top: 0;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">Web Design</a>
+        </li>
+         <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Web Development</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Product Management</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Marketing</a>
+        </li>
+        <li style="    padding: 10px 0;
+    display: flex
+;
+    align-items: center;">
+          <i class="fa-solid fa-right-long" style="    padding-right: 2px;
+    color: #106eea;
+    font-size: 18px;
+    line-height: 1;"></i>
+          <a href="#" style="    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1; text-decoration: none;">&nbsp;Graphic Design</a>
+        </li>
+    </ul>
+              </div>
+              <div class="col-lg-3" style="margin-bottom: 30px;">
+                <h4 style="font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;">Our Social Networks</h4>
+     <p style="    margin-top: 0;
+    margin-bottom: 1rem;">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+     <div class="social">
+            <i class="fa-brands fa-twitter logos"></i>
+            <i class="fa-brands fa-square-facebook logos"></i>
+            <i class="fa-brands fa-instagram logos"></i>
+            <i class="fa-brands fa-skype logos"></i>
+            <i class="fa-brands fa-linkedin logos"></i>
+     </div>
+              </div>
+             </div>
+          </div>
+         </section>
+         <section class="container-fluid pt-1 pb-4" style="background-color: #f1f6fe;" >
+             <div class="container py-4 " >
+              <div class="copyright" style="text-align: center;
+    float: left;">
+      
+        © Copyright 
+        <strong><span>BizLand</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits" style="float: right;
+    text-align: center;
+    font-size: 13px;
+    color: #444444;">
+    
+        Designed by <a href="https://bootstrapmade.com/" style="color: #106eea;
+    text-decoration: none;">BootstrapMade</a>
+    </div>
+          </div>
+         </section>
+    </main>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="fa-solid fa-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
